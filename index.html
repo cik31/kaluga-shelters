@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <title>Укрытия Калуги (по состоянию на 01.06.2024)</title>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <style>
@@ -15,7 +16,8 @@
     </style>
 </head>
 <body>
-    <h1>Укрытия Калуги (по состоянию на 01.06.2024)</h1>
+    <h3 style="padding-left: 24px;">РЕЕСТР учета заглубленных помещений подземного пространства, расположенных на территории муниципального образования «Город Калуга» (по состоянию на 01.06.2024)</h3>
+    <div style="padding-left: 24px; margin-bottom: 24px;"><a href="https://docs.yandex.ru/docs/view?url=https://www.kaluga-gov.ru/upload/iblock/871/xuqanyi4lwnfjpuzf8vjq67p0hnonm63.docx">Источник</a></div>
     <div id="map"></div>
     <script type="text/javascript">
         ymaps.ready(init);
@@ -8068,5 +8070,10 @@
             });
         }
     </script>
+    <style>
+        body {
+            font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, “Segoe UI”, Roboto, “Helvetica Neue”, Arial, sans-serif;
+        }
+            </style>
 </body>
 </html>
